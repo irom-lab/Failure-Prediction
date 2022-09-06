@@ -1,4 +1,5 @@
 # Code for running experiments in section 5A in the paper: Obstacle avoidance with a done
+Author: @aalec
 
 ### Requirements
 ```

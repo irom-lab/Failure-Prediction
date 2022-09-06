@@ -315,33 +315,3 @@ if __name__ == "__main__":
         generate_data_multi(policy, policy_num, 10000, num_obs, num_imgs, sample_obstacles, add_app="_prior")
         generate_data_multi(policy, policy_num, 10000, num_obs, num_imgs, sample_obstacles, add_app="_post")
         generate_data_multi(policy, policy_num, 20000, num_obs, num_imgs, sample_obstacles, add_app="_test")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -195,15 +195,3 @@ if __name__ == '__main__':
     data_p2 = [[0, 1, 0.010765612583032677, 1, None], *data_p2, [1, 0, 1, 0.011397144996587096, None]]  # adding the trivial detectors
 
     plot_fnrvsfpr(filename, data_p1, data_p2)
-
-
-
-
-
-
-
-
-
-
-
-
