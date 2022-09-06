@@ -305,8 +305,6 @@ if __name__ == "__main__":
 
         sample_obstacles = sample_obstacles_random if policy_num == 1 else sample_obstacles_occlusion
 
-        # generate_data_multi(policy, policy_num, 10, num_obs, num_imgs, sample_obstacles, add_app="_prior")
-
         ''' 
         # Data generation for testing purposes
         generate_data_multi(policy, policy_num, 2000, num_obs, num_imgs, sample_obstacles, add_app="_priorsmall")
