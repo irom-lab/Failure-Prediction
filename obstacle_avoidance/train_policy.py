@@ -61,9 +61,4 @@ for n in range(1, int(N)+1):
 
         save_weights(model, save_file_name=policy_path)
 print()
-
-x, y = dl.data['test']
-x, y = x.to(device), y.to(device)
-# print(model(x).max(dim=1).indices[:200])  # check to make sure we haven't overfit to a subset of the primitives
-# print(torch.sum(torch.min(y, dim=1).values)/10000)  # check envs, 0 means all environments are solvable
-print(test_model(model, x, y, x.shape[0]))  # check performance on test data
+print("Done!")
